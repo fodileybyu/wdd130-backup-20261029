@@ -1,0 +1,57 @@
+body {
+  box-sizing: border-box;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 8px 16px;
+  color: #111;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+nav {
+  margin-bottom: 12px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+nav a + a {
+  margin-left: 16px;
+}
+
+h1 {
+  margin: 0 0 28px;
+  font-size: 40px;
+  line-height: 1.15;
+}
+
+main img {
+  display: block;
+  width: 268px;
+  height: 216px;
+  margin-bottom: 24px;
+  object-fit: cover;
+  object-position: center 22%;
+}
+
+main p,
+footer p {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+main p {
+  margin: 0 0 24px;
+}
+
+footer p {
+  margin-top: 24px;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  main img {
+    width: min(100%, 268px);
+  }
+}
